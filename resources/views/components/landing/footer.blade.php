@@ -81,7 +81,7 @@
                 </div>
 
                 <div class="mt-6">
-                    <p class="text-sm text-slate-400">contato@edufazsite.com.br</p>
+                    <a href="mailto:contato@edufazsite.com.br" class="text-sm text-slate-400 transition-colors duration-200 hover:text-sky-400">contato@edufazsite.com.br</a>
                 </div>
             </div>
         </div>

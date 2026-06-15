@@ -45,11 +45,11 @@
                     Números que importam
                 </span>
                 <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-white sm:text-4xl" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.1s_both]' : 'opacity-0'">
-                    Preparado para entregar
+                    Preparados para entregar
                     <span class="bg-gradient-to-r from-sky-400 to-blue-400 bg-clip-text text-transparent">resultados reais</span>
                 </h2>
                 <p class="mt-4 text-lg leading-relaxed text-slate-400" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.2s_both]' : 'opacity-0'">
-                    Meu compromisso com qualidade garante que seu projeto será entregue com excelência e acompanhamento contínuo.
+                    Nosso compromisso com a qualidade garante que seu projeto será entregue com excelência e acompanhamento contínuo.
                 </p>
 
                 <div class="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-2">

@@ -1,7 +1,7 @@
 <section id="servicos" class="relative overflow-hidden bg-gradient-to-b from-slate-50 to-white py-24">
     <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="mx-auto max-w-2xl text-center" x-data="{ shown: false }" x-intersect.once="shown = true">
-            <span class="text-sm font-semibold uppercase tracking-widest text-sky-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_both]' : 'opacity-0'">O que faço</span>
+            <span class="text-sm font-semibold uppercase tracking-widest text-sky-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_both]' : 'opacity-0'">O que fazemos</span>
             <h2 class="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.1s_both]' : 'opacity-0'">Serviços sob medida para o seu
                 negócio</h2>
             <p class="mt-4 text-lg text-slate-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.2s_both]' : 'opacity-0'">Cada projeto é único. Crio soluções personalizadas com tecnologia

@@ -5,12 +5,12 @@
     </div>
 
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div class="mx-auto max-w-2xl text-center" x-data="{ shown: false }" x-intersect.once="shown = true">
-            <span class="text-sm font-semibold uppercase tracking-widest text-sky-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_both]' : 'opacity-0'">Como trabalho</span>
+        <div class="mx-auto max-w-3xl text-center" x-data="{ shown: false }" x-intersect.once="shown = true">
+            <span class="text-sm font-semibold uppercase tracking-widest text-sky-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_both]' : 'opacity-0'">Como trabalhamos</span>
             <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.1s_both]' : 'opacity-0'">Do conceito ao lançamento em
                 <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">4 etapas</span>
             </h2>
-            <p class="mt-4 text-lg text-slate-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.2s_both]' : 'opacity-0'">Meu processo é transparente e colaborativo. Você acompanha cada fase e tem voz ativa nas decisões.</p>
+            <p class="mt-4 text-lg text-slate-600" :class="shown ? 'animate-[fadeInUp_0.6s_ease-out_0.2s_both]' : 'opacity-0'">Nosso processo é transparente e colaborativo. Você acompanha cada fase e tem voz ativa nas decisões.</p>
         </div>
 
         {{-- Steps grid --}}
@@ -20,28 +20,28 @@
                     [
                         'number' => '01',
                         'title' => 'Descoberta',
-                        'description' => 'Entendo seu negócio, público-alvo, concorrentes e objetivos. Mapeio tudo para criar a estratégia perfeita.',
+                        'description' => 'Entendemos seu negócio, público-alvo, concorrentes e objetivos. Mapeamos tudo para criar a estratégia perfeita.',
                         'icon' => 'M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z',
                         'gradient' => 'from-sky-500 to-blue-600',
                     ],
                     [
                         'number' => '02',
                         'title' => 'Design',
-                        'description' => 'Crio layouts exclusivos e modernos. Você aprova cada tela antes de começar o desenvolvimento.',
+                        'description' => 'Criamos layouts exclusivos e modernos. Você aprova cada tela antes de começar o desenvolvimento.',
                         'icon' => 'M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z',
                         'gradient' => 'from-violet-500 to-purple-600',
                     ],
                     [
                         'number' => '03',
                         'title' => 'Desenvolvimento',
-                        'description' => 'Transformo o design em código limpo, rápido e responsivo. Cada detalhe é implementado com precisão.',
+                        'description' => 'Transformamos o design em código limpo, rápido e responsivo. Cada detalhe é implementado com precisão.',
                         'icon' => 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4',
                         'gradient' => 'from-emerald-500 to-teal-600',
                     ],
                     [
                         'number' => '04',
                         'title' => 'Lançamento',
-                        'description' => 'Publico seu site com configuração de domínio, SSL e SEO. Dou suporte completo após o lançamento.',
+                        'description' => 'Publicamos seu site com configuração de domínio, SSL e SEO. Oferecemos suporte completo após o lançamento.',
                         'icon' => 'M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5',
                         'gradient' => 'from-amber-500 to-orange-600',
                     ],

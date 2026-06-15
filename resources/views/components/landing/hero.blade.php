@@ -140,7 +140,7 @@
                 </div>
                 <div>
                     <div class="text-xs font-semibold text-slate-700">Primeiro</div>
-                    <div class="text-[10px] text-slate-400">No Google</div>
+                    <div class="text-[10px] text-slate-700">No Google</div>
                 </div>
             </div>
         </div>

@@ -4,7 +4,7 @@
             <!-- Brand -->
             <div>
                 <a href="#inicio" class="flex items-center gap-3">
-                    <img src="/images/logo.png" alt="Edu Faz Site" class="h-10 w-auto brightness-0 invert">
+                    <img src="/images/logo.png" alt="Edu Faz Site" class="h-18 w-auto brightness-0 invert">
                 </a>
                 <p class="mt-4 text-sm leading-relaxed text-slate-400">
                     Criamos soluções digitais profissionais que impulsionam negócios. Sites e landing pages com

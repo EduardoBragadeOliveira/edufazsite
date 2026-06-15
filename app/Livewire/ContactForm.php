@@ -58,8 +58,8 @@ class ContactForm extends Component
         $url = 'https://wa.me/5565999846500?text='.urlencode($text);
 
         $this->submitted = true;
-
-        $this->redirect($url, navigate: false);
+        $this->reset(['name', 'email', 'message']);
+        $this->dispatch('open-url', url: $url);
     }
 
     public function resetForm(): void

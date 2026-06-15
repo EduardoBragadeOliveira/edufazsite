@@ -9,7 +9,7 @@
         <div class="flex flex-col items-center gap-12 lg:flex-row lg:gap-20" x-data="{ shown: false }" x-intersect.once="shown = true">
             <div class="relative w-full lg:w-1/2" :class="shown ? 'animate-[fadeInLeft_0.8s_ease-out_both]' : 'opacity-0'">
                 <div class="relative overflow-hidden rounded-3xl shadow-2xl shadow-slate-200/50 transition-transform duration-500 hover:scale-[1.02]">
-                    <img src="/images/solo-developer.png" alt="Desenvolvedor trabalhando em projeto web" class="h-auto w-full object-cover" loading="lazy">
+                    <img src="/images/solo-developer.png" alt="Equipe trabalhando em projeto web" class="h-auto w-full object-cover" loading="lazy">
                     {{-- Gradient overlay --}}
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/20 to-transparent"></div>
                 </div>
@@ -30,23 +30,23 @@
             <div class="w-full lg:w-1/2" :class="shown ? 'animate-[fadeInRight_0.8s_ease-out_0.2s_both]' : 'opacity-0'">
                 <span class="inline-flex items-center gap-2 rounded-full border border-sky-200 bg-sky-50 px-4 py-1.5 text-sm font-medium text-sky-700">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
-                    Quem sou eu
+                    Quem somos
                 </span>
                 <h2 class="mt-5 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl">
-                    Um desenvolvedor apaixonado por criar
+                    Apaixonados por criar
                     <span class="bg-gradient-to-r from-sky-500 to-blue-600 bg-clip-text text-transparent">experiências digitais</span>
                 </h2>
                 <p class="mt-6 text-lg leading-relaxed text-slate-600">
-                    Sou desenvolvedor full-stack com experiência sólida em criar sites e sistemas web do zero. Cuido pessoalmente de cada etapa do projeto — da estratégia ao código — garantindo que o resultado final supere suas expectativas.
+                    Somos uma empresa de desenvolvimento com experiência sólida em criar sites e sistemas web de alto nível. Cuidamos de cada etapa do projeto, da estratégia ao código, garantindo que o resultado final impulsione o seu negócio.
                 </p>
-                <p class="mt-4 text-base leading-relaxed text-slate-500">
-                    Meu diferencial é o atendimento próximo: você fala diretamente com quem está construindo seu projeto. Sem intermediários, sem ruído — apenas foco total no seu resultado.
+                <p class="mt-4 text-lg leading-relaxed text-slate-600">
+                    Nosso diferencial é o foco no sucesso do cliente e a transparência em cada etapa. Trabalhamos lado a lado com você para entender suas necessidades e entregar soluções tecnológicas que realmente fazem a diferença.
                 </p>
 
                 <div class="mt-8 space-y-4">
                     @foreach ([
-                        ['icon' => 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z', 'title' => 'Paixão pelo que faço', 'text' => 'Cada linha de código é escrita com cuidado e atenção aos detalhes para garantir perfeição.'],
-                        ['icon' => 'M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4', 'title' => 'Atendimento direto', 'text' => 'Você fala diretamente comigo. Sem intermediários, sem ruído — apenas foco total no seu resultado.'],
+                        ['icon' => 'M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z', 'title' => 'Paixão pelo que fazemos', 'text' => 'Cada linha de código é escrita com cuidado e atenção aos detalhes para garantir excelência.'],
+                        ['icon' => 'M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4', 'title' => 'Atendimento direto', 'text' => 'Você tem suporte direto com nossa equipe. Sem intermediários, sem ruído. Apenas foco total no seu resultado.'],
                         ['icon' => 'M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z', 'title' => 'Qualidade garantida', 'text' => 'Cada projeto é tratado como prioridade máxima, com dedicação total do início ao fim.'],
                     ] as $item)
                         <div class="group flex items-start gap-4 transition-transform duration-300 hover:translate-x-1">
@@ -64,7 +64,7 @@
                 </div>
 
                 <a href="#contato" class="group mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-sky-500 to-blue-600 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-sky-500/25 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-sky-500/30">
-                    Fale comigo
+                    Fale conosco
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition-transform duration-200 group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
                 </a>
             </div>
